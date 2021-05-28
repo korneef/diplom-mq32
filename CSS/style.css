@@ -1,14 +1,14 @@
 @font-face {
   font-family: OpenSans;
-  src: url(/fonts/OpenSans-Regular.woff2), url(/fonts/OpenSans-Regular.woff),
-    url(/fonts/OpenSans-Regular.ttf);
+  src: url(fonts/OpenSans-Regular.woff2), url(fonts/OpenSans-Regular.woff),
+    url(fonts/OpenSans-Regular.ttf);
   font-weight: normal;
 }
 
 @font-face {
   font-family: OpenSans;
-  src: url(/fonts/OpenSans-Bold.woff2), url(/fonts/OpenSans-Bold.woff),
-    url(/fonts/OpenSans-Bold.ttf);
+  src: url(fonts/OpenSans-Bold.woff2), url(fonts/OpenSans-Bold.woff),
+    url(fonts/OpenSans-Bold.ttf);
   font-weight: bold;
 }
 
@@ -111,7 +111,7 @@ a:focus {
   padding-left: 10px;
   color: rgba(0, 0, 0, 0.453);
   background-color: #f4f7f6;
-  background-image: url(/svg/form-arrows.svg);
+  background-image: url(svg/form-arrows.svg);
   background-repeat: no-repeat;
   background-size: 10px;
   background-position: right 10px center;
@@ -147,13 +147,13 @@ a:focus {
   content: "";
   width: 17px;
   height: 17px;
-  background-image: url(/svg/form-empty-circle.svg);
+  background-image: url(svg/form-empty-circle.svg);
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .popup-radio:checked + .popup-radio-text::before {
-  background-image: url(/svg/form-circle.svg);
+  background-image: url(svg/form-circle.svg);
 }
 
 .popup-themes {
@@ -198,7 +198,7 @@ a:focus {
   padding: 28px 0 126px;
   position: relative;
   background-color: #666666;
-  background-image: url(/images/banner-bg.jpg);
+  background-image: url(images/banner-bg.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   z-index: 0;
@@ -274,7 +274,7 @@ a:focus {
   }
   
   .header {
-    background-image: url(/images/banner-bg-tablet.jpg);
+    background-image: url(images/banner-bg-tablet.jpg);
     background-position: bottom center;
     padding-top: 43px;
     padding-bottom: 113px;
@@ -393,7 +393,7 @@ a:focus {
 
   
   .header {
-    background-image: url(/images/banner-mobile.jpg);
+    background-image: url(images/banner-mobile.jpg);
     padding-top: 225px;
     padding-bottom: 213px;
   }
@@ -898,7 +898,7 @@ a:focus {
   height: 48px;
   background-color: #b59f5b;
   border: none;
-  background-image: url(/svg/search.svg);
+  background-image: url(svg/search.svg);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: 18px auto;
@@ -1265,23 +1265,23 @@ shop-link:focus {
 }
 
 .twitter-ico {
-  background-image: url(/svg/004-twitter.svg);
+  background-image: url(svg/004-twitter.svg);
 }
 
 .pinterest-ico {
-  background-image: url(/svg/001-pinterest.svg);
+  background-image: url(svg/001-pinterest.svg);
 }
 
 .facebook-ico {
-  background-image: url(/svg/002-facebook-logo.svg);
+  background-image: url(svg/002-facebook-logo.svg);
 }
 
 .instagram-ico {
-  background-image: url(/svg/005-instagram.svg);
+  background-image: url(svg/005-instagram.svg);
 }
 
 .tmblr-ico {
-  background-image: url(/svg/003-tumblr.svg);
+  background-image: url(svg/003-tumblr.svg);
 }
 
 .footer-copiright {
